@@ -7,3 +7,11 @@
   margin-left: 50px;
   padding-right: 15PX;
 }
+
+#display-bookmark{
+  border:1px solid black;
+  border-radius: 15px;
+  margin-top:10px;
+  margin-left:50px;
+   
+}

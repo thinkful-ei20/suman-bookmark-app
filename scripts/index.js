@@ -1,21 +1,12 @@
-// const store = {
-//   bookmarks : [
-//     {
-//       id,
-//       title,
-//       link,
-//       description,
-//       rating,
-//     },
-//     {
-//       id,
-//       title,
-//       link,
-//       description,
-//       rating,
-//     }
-//   ],
-//   minimumRating : '2',
-//   myView : '',
+'use strict';
+/*global */
 
-// };
+const bookmarkList =(function(){
+
+  function generateBookMarkElement(item){
+    
+  }
+
+
+
+});
