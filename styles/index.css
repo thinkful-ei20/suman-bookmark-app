@@ -1,17 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
 .h1{
   margin-left : 50px;
   font-size: 30px;
 }
 
-#add-bookmark{
+.add-bookmark{
   margin-left: 50px;
   padding-right: 15PX;
 }
 
-#display-bookmark{
+.display-bookmark{
   border:1px solid black;
   border-radius: 15px;
   margin-top:10px;
-  margin-left:50px;
-   
+  margin-left:10px; 
+  height: 75px;  
+}
+
+ul{
+  list-style: none;
+}
+
+.bookmark-name{
+  background-color:lightgray;  
+  border-radius: 5px;
+  width: 99.5%;
+  margin-left:2px;
+  height: 25px;
+  padding-right: 250px;  
+}
+
+.delete-bookmark{
+  margin-right: 0px;  
+  padding-top:5px;  
+}
+
+.edit-bookmark{
+  margin-right: 5px;  
+  padding-top:5px;
+}
+
+.checked {
+  color: orange;
+  padding-top : 10px;
+}
+
+.error-message{
+  color:red;  
 }
